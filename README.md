@@ -27,9 +27,9 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ## Features
 
-- **LSP**: Lua language server (`lua_ls`) via mason, auto-attaches to `.lua` files
+- **LSP**: `lua_ls` (Lua), `clangd` (C/C++), `pyright` (Python) via mason, auto-attaches on file open
 - **Completion**: Popup autocompletion with LSP, buffer words, paths, snippets
-- **File tree**: nvim-tree with case-sensitive sort, dotfiles hidden, grouped empty dirs
+- **File tree**: nvim-tree with case-sensitive sort, dotfiles hidden, grouped empty dirs; auto-opens on startup
 - **Find & replace**: Spectre panel with ripgrep backend
 - **Hop**: Quick cursor navigation to any visible word
 - **Surround**: `ys`, `ds`, `cs` to add/delete/change surrounding brackets/quotes/tags
