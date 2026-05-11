@@ -13,7 +13,12 @@ return {
         renderer = { group_empty = true },
         filters = { dotfiles = true },
       })
-      vim.cmd("NvimTreeOpen")
+      vim.api.nvim_create_autocmd("VimEnter", {
+        callback = function()
+          vim.cmd("NvimTreeOpen")
+        end,
+        nested = true,
+      })
     end,
   },
 }
