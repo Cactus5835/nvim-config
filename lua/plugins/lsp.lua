@@ -9,7 +9,7 @@ return {
     version = "~1",
     dependencies = { "williamboman/mason.nvim" },
     opts = {
-      ensure_installed = { "lua_ls" },
+      ensure_installed = { "lua_ls", "clangd", "pyright" },
     },
   },
   {
@@ -46,6 +46,20 @@ return {
               checkThirdParty = false,
             },
             telemetry = { enable = false },
+          },
+        },
+      })
+
+      lspconfig.clangd.setup({})
+
+      lspconfig.pyright.setup({
+        settings = {
+          python = {
+            analysis = {
+              autoSearchPaths = true,
+              diagnosticMode = "workspace",
+              typeCheckingMode = "basic",
+            },
           },
         },
       })
