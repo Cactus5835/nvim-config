@@ -45,7 +45,6 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 |-----|--------|
 | `gd` | Go to definition |
 | `K` | Hover documentation |
-| `gO` | Go to implementation |
 | `gr` | Find references |
 | `[d` | Previous diagnostic |
 | `]d` | Next diagnostic |
