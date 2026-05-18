@@ -39,6 +39,13 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ## Keymaps
 
+### Editing
+
+| Key | Action |
+|-----|--------|
+| `<C-z>` | Undo |
+| `<C-S-z>` | Redo |
+
 ### LSP (buffer-local, auto-attached)
 
 | Key | Action |
