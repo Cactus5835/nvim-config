@@ -15,7 +15,7 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | LSP client setup for `lua_ls`, `clangd`, and `pyright`. |
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Auto-closing pairs in insert mode. |
 | [nvim-surround](https://github.com/kylechui/nvim-surround) | Add/change/delete surrounding characters. |
-| [nvim-spectre](https://github.com/nvim-pack/nvim-spectre) (+ [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)) | Project-wide search and replace panel. |
+| [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (+ [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)) | Fuzzy finder for files and project-wide text search. |
 | [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) (+ [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)) | File explorer sidebar with icons; opens on startup. |
 | [yuyuko.vim](https://github.com/Enonya/yuyuko.vim) | Colorscheme applied on startup. |
 
@@ -44,7 +44,7 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 - LSP: lua_ls, clangd, pyright via mason; buffer-local LSP keymaps are registered on LspAttach
 - Completion: nvim-cmp with LSP, buffer, path, cmdline, and snippet support
 - File tree: nvim-tree auto-opens and provides a sidebar explorer
-- Search & replace: spectre backed by ripgrep
+- Search: Telescope file finder and live grep (`find_files`, `grep_string`, `live_grep`)
 
 ## Plugin keymaps summary
 
@@ -71,12 +71,13 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 |--------|-------|
 | `<leader>e` | Toggle file tree panel. |
 
-### [nvim-spectre](https://github.com/nvim-pack/nvim-spectre)
+### [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 | Keymap | Usage |
 |--------|-------|
-| `<leader>S` | Toggle Spectre panel. |
-| `<leader>sw` | Search for word under cursor in Spectre. |
+| `<leader>S` | Live grep across the project. |
+| `<leader>sw` | Search for the word under cursor. |
+| `<leader>sf` | Find files with fuzzy matching. |
 
 ### [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 
