@@ -6,7 +6,7 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 | Plugin | Purpose |
 |--------|---------|
-| [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | Colorscheme |
+| [yuyuko.vim](https://github.com/Enonya/yuyuko.vim) | Colorscheme |
 | [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | Tab/buffer line |
 | [hop.nvim](https://github.com/smoka7/hop.nvim) | Jump to any word on screen |
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Auto-close brackets/quotes |
@@ -35,7 +35,7 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 - **Surround**: `ys`, `ds`, `cs` to add/delete/change surrounding brackets/quotes/tags
 - **Autopairs**: Auto-close `(`, `[`, `{`, `'`, `"`
 - **Bufferline**: Tab-line with buffer navigation and close options
-- **Colorscheme**: Tokyonight (moon)
+- **Colorscheme**: Yuyuko
 
 ## Keymaps
 
