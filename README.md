@@ -15,6 +15,7 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | LSP client setup for `lua_ls`, `clangd`, and `pyright`. |
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Auto-closing pairs in insert mode. |
 | [nvim-surround](https://github.com/kylechui/nvim-surround) | Add/change/delete surrounding characters. |
+| [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Parser-based syntax and grammar highlighting with indentation. |
 | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (+ [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)) | Fuzzy finder for files and project-wide text search. |
 | [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) (+ [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)) | File explorer sidebar with icons; opens on startup. |
 | [yuyuko.vim](https://github.com/Enonya/yuyuko.vim) | Colorscheme applied on startup. |
