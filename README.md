@@ -17,7 +17,7 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 | [nvim-surround](https://github.com/kylechui/nvim-surround) | Add/change/delete surrounding characters. |
 | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Parser-based syntax and grammar highlighting with indentation. |
 | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (+ [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)) | Fuzzy finder for files and project-wide text search. |
-| [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) (+ [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)) | File explorer sidebar with icons; opens on startup. |
+| [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) (+ [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)) | File explorer sidebar with icons. |
 | [yuyuko.vim](https://github.com/Enonya/yuyuko.vim) | Colorscheme applied on startup. |
 
 ## Custom features
@@ -44,7 +44,7 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 - LSP: lua_ls, clangd, pyright via mason; buffer-local LSP keymaps are registered on LspAttach
 - Completion: nvim-cmp with LSP, buffer, path, cmdline, and snippet support
-- File tree: nvim-tree auto-opens and provides a sidebar explorer
+- File tree: nvim-tree provides a sidebar explorer and opens on demand
 - Search: Telescope file finder and live grep (`find_files`, `grep_string`, `live_grep`)
 
 ## Plugin keymaps summary
