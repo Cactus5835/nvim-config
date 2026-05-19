@@ -35,4 +35,5 @@ map("i", "<C-S-z>", "<C-o><C-r>", "Redo")
 
 map("n", "<leader>w", ":w<CR>", "Save file")
 map("n", "<leader>q", ":q<CR>", "Close window")
+map("n", "<leader>Q", ":qa<CR>", "Quit all")
 map("n", "<leader>x", ":x<CR>", "Save and close")
