@@ -36,7 +36,7 @@ Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ## Layout
 
-- init.lua — entrypoint (requires core.basic and core.lazy)
+- init.lua — entrypoint (requires core.options, core.keymaps, core.autocmds, and core.lazy)
 - lua/plugins/*.lua — plugin specifications (lazy.nvim style)
 - lua/core/*.lua — core settings and bootstrapping logic
 

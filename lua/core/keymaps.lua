@@ -1,25 +1,3 @@
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
-vim.env.PATH = vim.fn.expand("~/.local/bin") .. ":" .. vim.env.PATH
-
-vim.opt.number = true
-vim.opt.relativenumber = true
-
-vim.opt.cursorline = true
-vim.opt.colorcolumn = "80"
-
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 0
-vim.opt.expandtab = true
-
-vim.opt.autoread = true
-
-vim.opt.splitbelow = true
-vim.opt.splitright = true
-
-vim.g.mapleader = " "
-
 local function map(mode, lhs, rhs, desc)
   vim.keymap.set(mode, lhs, rhs, { desc = desc })
 end
