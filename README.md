@@ -10,6 +10,7 @@ This repository contains a modular Neovim configuration using Lazy.nvim and Lazy
 |--------|---------|
 | [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) + [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp), [cmp-buffer](https://github.com/hrsh7th/cmp-buffer), [cmp-path](https://github.com/hrsh7th/cmp-path), [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline), [LuaSnip](https://github.com/L3MON4D3/LuaSnip), [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) | Completion setup with custom sources and completion keymaps. |
 | [hop.nvim](https://github.com/smoka7/hop.nvim) | Fast in-screen navigation. |
+| [rose-pine/neovim](https://github.com/rose-pine/neovim) | Colorscheme 'Rosé Pine Moon' (variant 'moon' set by config). |
 
 ## Custom features
 
