@@ -26,16 +26,9 @@ This repository contains a modular Neovim configuration using Lazy.nvim and Lazy
 
 | Keymap | Usage |
 |--------|-------|
-| `<C-h>` | Move to left split. |
-| `<C-j>` | Move to split below. |
-| `<C-k>` | Move to split above. |
-| `<C-l>` | Move to right split. |
 | `<C-z>` | Undo. |
 | `<C-S-z>` | Redo. |
-| `<leader>w` | Save file. |
-| `<leader>q` | Close window. |
 | `<leader>Q` | Quit all. |
-| `<leader>x` | Save and close. |
 
 ## Custom plugin keymaps
 
