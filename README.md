@@ -66,3 +66,7 @@ This repository contains a modular Neovim configuration using Lazy.nvim and Lazy
 | `lua/config/autocmds.lua` | Placeholder for future autocmds. |
 | `lua/config/lazy.lua` | Lazy.nvim bootstrap and defaults. |
 | `lua/plugins/*.lua` | Repo-specific plugin overrides. |
+
+## Sync to local config
+
+Run `./sync-nvim-config.sh` to sync this repository into `~/.config/nvim`.
