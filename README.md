@@ -61,8 +61,8 @@ This repository contains a modular Neovim configuration using Lazy.nvim and Lazy
 | Path | Purpose |
 |------|---------|
 | `init.lua` | Entry point; loads core options, keymaps, autocmds, and Lazy bootstrapping. |
-| `lua/core/options.lua` | Core editor options and environment setup. |
-| `lua/core/keymaps.lua` | Custom keymaps. |
-| `lua/core/autocmds.lua` | Placeholder for future autocmds. |
-| `lua/core/lazy.lua` | Lazy.nvim bootstrap and defaults. |
+| `lua/config/options.lua` | Core editor options and environment setup. |
+| `lua/config/keymaps.lua` | Custom keymaps. |
+| `lua/config/autocmds.lua` | Placeholder for future autocmds. |
+| `lua/config/lazy.lua` | Lazy.nvim bootstrap and defaults. |
 | `lua/plugins/*.lua` | Repo-specific plugin overrides. |
